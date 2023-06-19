@@ -1,0 +1,93 @@
+/*Definição das variaveis do CSS*/
+:root {
+    --primary-color: rgb (255 0 0);
+    --secondary-color: rgb (0 255 0);
+    --tertiary-color: rgb (0 0 255);
+    --back-color: hsl(0, 0%, 100%);
+}
+
+* {
+    background: var(--back-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+main {
+     display: flex;
+     justify-content: space;
+     width: 80%;
+     margin: 0 auto;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    text-align:start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.img {
+    height: 500px;
+    width: 600px;
+}
+
+.img1 {
+    height: 400px;
+    width: 400px;
+}
+
+.img2 {
+    height: 400px;
+    width: 400px;
+}
+
+.img3 {
+    height: 400px;
+    width: 400px;
+}
+
+.img4 {
+    height: 400px;
+    width: 400px;
+}
+
+.img5 {
+    height: 400px;
+    width: 400px;
+}
+
+.img6 {
+    height: 400px;
+    width: 400px;
+}
+
+.img7 {
+    height: 400px;
+    width: 400px;
+}
+
+.img8 {
+    height: 400px;
+    width: 400px;
+}
+
+.img9 {
+    height: 400px;
+    width: 400px;
+}
+
+#miles {
+    background: rgb(207, 13, 13);
+}
+#noir {
+    background: rgb(48, 23, 107);
+}
+#blue {
+    background: blue;
